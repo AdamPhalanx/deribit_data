@@ -1,0 +1,5 @@
+import deribit_data as dm
+# Instantiate Options class
+data = Options(currency="BTC")
+# Collect data and store it in a DataFrame
+df = data.collect_data()
